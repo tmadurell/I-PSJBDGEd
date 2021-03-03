@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AB7A1B"
+    tools:context=".Ayuda">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/enrere3"
+                android:layout_width="79dp"
+                android:layout_height="62dp"
+                android:src="@drawable/enrere" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="Ayuda"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Que es e I-PSJBD?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textcloud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I-PSJBD es una app para consultar, series, peliculas y videojuegos para cualquier edad, con el proposito de querer aprender cultura visual."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/pensar" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Por que tener una cuenta?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tener una cuenta de registro es voluntario, pero si uno se registra en nuestra APP sus datos podran ser desplazados por varios dispositivos, como sus fichas favoritas y su historial de busqueda para mayor comodidad al usuario a la hora de consultar en nuestra base de datos."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/nube" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aviso de cuentas:"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Si el usuario tiene dos dispositivos con la misma cuenta activa y se esta usando al mismo tiempo podria haber una confusión de datos y no saber diferenciar cual es mas prioritario, en caso que ocurriera les recomendamos cerrar la cuenta de todos los dispositivos que tenga activas. En mejor caso recomendamos ha tener una cuenta por persona o en su caso una cuenta por dispositivo."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/carpeta" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Que es e I-PSJBD?"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consultar a los dessarrolladores:"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/consultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Si tiene alguna duda o consulta que no hayamos podido explicar en nuestra ayuda mandanos un correo o intentar dar tu reseña en la app para corregir errores  y añadir mejoras en futuras actualizaciones. Atentamente el equipo de I-PSJBD."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

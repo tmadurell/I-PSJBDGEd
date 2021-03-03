@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#319AE6"
+    tools:context=".TiP">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginTop="64dp"
+                android:text="Política de Privacidad de I-PSJBD"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al utilizar nuestros servicios, nos confías tus datos. Entendemos que es una gran responsabilidad y nos esforzamos al máximo para proteger tu información y permitirte controlarla.
+El objetivo de esta Política de Privacidad es informarte sobre qué datos recogemos, por qué los recogemos y cómo puedes actualizarlos, gestionarlos, exportarlos y eliminarlos."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/escudo" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="34dp"
+                android:text="I-PSJBD desarrolla una variedad de servicios que permiten que millones de usuarios exploren el mundo e interactúen con él de forma diferente a diario. Estos servicios incluyen:
+
+-Aplicaciones, sitios web y dispositivos de I-PSJBD.
+-Plataformas, como el navegador Chrome y el sistema operativo Android.
+-Productos que se integran en aplicaciones y sitios web de terceros, como anuncios y mapas insertados de Google Maps.
+
+Puedes utilizar nuestros servicios de diferentes formas para gestionar tu privacidad. Por ejemplo, si quieres crear y gestionar contenido, como correos electrónicos y fotos, o consultar resultados de búsqueda más relevantes, puedes registrarte para obtener una cuenta de I-PSJBD. Asimismo, puedes utilizar diversos servicios de I-PSJBD una vez que hayas cerrado sesión en tu cuenta o sin que hayas siquiera creado una como, por ejemplo, realizando una búsqueda en Google o visualizando vídeos en YouTube. También puedes navegar por Internet de forma privada en Chrome con el modo incógnito. Además, puedes ajustar la configuración de privacidad en todos nuestros servicios para controlar la información que recogemos y cómo la utilizamos.
+
+Para ayudarte a entender este documento lo mejor posible, hemos añadido ejemplos, vídeos explicativos y definiciones a los términos clave. Si tienes alguna pregunta sobre esta Política de Privacidad, puedes ponerte en contacto con nosotros.
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Felicidades si has llegado aqui es que no te lo has leido xD"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#319AE6"
+        android:gravity="center"
+        android:text="Términos y Política de Priv.."
+        android:textColor="#88FFE2"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/esperachaval"
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="624dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#8F8B8B"
+        android:text="Modificar personalmente"
+        android:textColor="#123147"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/okboomer"
+        android:layout_width="248dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#FFFFFF"
+        android:text="Confirmar y continuar"
+        android:textColor="#123147"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="544dp"
+        android:background="#319AE6"
+        android:gravity="center"
+        android:text="                                                                           "
+        android:textColor="#88FFE2"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
+

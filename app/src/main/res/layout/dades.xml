@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#319AE6"
+    tools:context=".Dades">
+
+
+    <Button
+        android:id="@+id/esperachaval"
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="624dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#8F8B8B"
+        android:text="Modificar personalmente"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okboomer"
+
+        android:layout_width="248dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#FFFFFF"
+        android:text="Confirmar y continuar"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="217dp"
+        android:layout_height="245dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/cubs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/irAlRegistro1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="64dp"
+        android:text="Datos que facilitas"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginRight="88dp"
+        android:gravity="center"
+        android:text="Acerca de los datos de la aplicación"
+        android:textColor="#7C00F9"
+        android:textSize="15sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="336dp"
+        android:gravity="center"
+        android:text="Accedemos a la información de esta aplicación
+y este dispositivo móvil para personalizar
+contenido, anuncios y recomendaciones de
+esta aplicación y otros lugares.Acerca de los datos de la aplicación"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

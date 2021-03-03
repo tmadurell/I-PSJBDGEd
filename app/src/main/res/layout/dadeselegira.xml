@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#319AE6"
+    tools:context=".DadesElegirA">
+
+    <TextView
+        android:id="@+id/infocompleto1"
+        android:layout_width="104dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#6F2FD8"
+        android:gravity="center|start"
+        android:text=" "
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="72dp"
+        android:background="#319AE6"
+        android:gravity="center"
+        android:text="Datos que facilitas"
+        android:textColor="#FCB767"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/infocompleto"
+        android:layout_width="311dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#6F2FD8"
+        android:gravity="center|start"
+        android:text="Comparte datos de comportamiento para ayudarnos a mejorar y personalizar continuamente tu experiencia. Entre eso implica anuncios y recomendaciones personalizadoos."
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/basicos"
+        android:layout_width="311dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="324dp"
+        android:gravity="bottom|fill|left"
+        android:text="Datos básicos"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infobasicos"
+        android:layout_width="311dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="344dp"
+        android:gravity="center|start"
+        android:text="Comparte solo los datos necesarios para
+mantener y usar las funciones y los servicios
+principales de I-PSJBD.
+Entre eso implica anuncios y recomendaciones
+generales."
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center"
+        android:text="Acerca de los datos de la aplicación"
+        android:textColor="#7C00F9"
+        android:textSize="15sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="460dp"
+        android:gravity="center"
+        android:text="Conservamos determinados datos de uso
+para mejorar nuestros servicios. Elige cuánta
+información deseas compartir. Tus datos
+siempre estáran protegidos."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/puntoaz"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/puntob"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infobasicos1"
+        android:layout_width="104dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="324dp"
+        android:gravity="center|start"
+        android:text=" "
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/completos"
+        android:layout_width="311dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#6F2FD8"
+        android:gravity="bottom|fill|left"
+        android:text="Datos completos"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okboomer"
+
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#FFFFFF"
+        android:text="Confirmar y continuar"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infobasicos" />
+
+    <Button
+        android:id="@+id/esperachaval"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="652dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#8F8B8B"
+        android:text="Cancelar y volver"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

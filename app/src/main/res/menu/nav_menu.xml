@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home_n"
+    android:icon="@drawable/casaicono"
+    android:title="Inicio" />
+
+<item
+    android:id="@+id/llista"
+    android:icon="@drawable/llista"
+    android:title="Mi lista" />
+
+<item
+    android:id="@+id/home_Pelicules"
+    android:icon="@drawable/movies"
+    android:title="Películas" />
+<item
+    android:id="@+id/home_Series"
+    android:icon="@drawable/tvi"
+    android:title="Series TV" />
+<item
+    android:id="@+id/home_Videojocs"
+    android:icon="@drawable/game"
+    android:title="Videojuegos" />
+</menu>

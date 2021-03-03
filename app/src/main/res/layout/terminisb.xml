@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#319AE6"
+    tools:context=".TerminisB">
+
+    <TextView
+        android:id="@+id/inforechazar1"
+        android:layout_width="104dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="344dp"
+        android:gravity="center|start"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#2BF557"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/inforechazar"
+        android:layout_width="311dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="364dp"
+        android:gravity="center|start"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#2BF557"
+        android:text="Eso implica que no guardaremos tus datos, però eso no impide que en casos especificos guardaremos algunos datos de manera anonimos es decir como ir a confesar a misa."
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Rechazar"
+        android:layout_width="311dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/lineas"
+        android:backgroundTint="#2BF557"
+        android:gravity="bottom|fill|left"
+        android:text="Rechazar Términos y Políticas"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/punto"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoaceptar1"
+        android:layout_width="104dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="184dp"
+        android:gravity="center|start"
+
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="72dp"
+        android:background="#319AE6"
+        android:gravity="center"
+        android:text="Términos y Política de Priv.."
+        android:textColor="#88FFE2"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoaceptar"
+        android:layout_width="311dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="204dp"
+        android:gravity="center|start"
+        android:text="Eso implica que todo lo que vayas hacer, estaremos al tanto que se registrara en nuestra base de datos que en resumen somos como dios pero mas guay."
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/Aceptar"
+        android:layout_width="311dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="184dp"
+        android:gravity="bottom|fill|left"
+        android:text="Aceptar Términos y Políticas"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okboomer"
+        android:layout_width="248dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#FFFFFF"
+        android:text="Confirmar y continuar"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inforechazar" />
+
+    <Button
+        android:id="@+id/esperachaval"
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="604dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#8F8B8B"
+        android:text="Cancelar y volver"
+        android:textColor="#123147"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/puntob"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

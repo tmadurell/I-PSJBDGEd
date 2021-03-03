@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#606060"
+    tools:context=".Sonic">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/enrere"
+                android:layout_width="79dp"
+                android:layout_height="62dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/enrere" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="309dp"
+                android:src="@drawable/sonic" />
+
+            <ImageView
+                android:id="@+id/estrella"
+                android:layout_width="102dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="300sp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/estrella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:gravity="start"
+                android:text="  Sonic, la película"
+                android:textColor="@color/black"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="34dp"
+                android:text="Duración: 100 min."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="34dp"
+                android:text="Sonic, la película (título original en inglés: Sonic the Hedgehog) es una película de aventurafantástica estadounidense-japonesa del año 2020 basada en la franquicia de videojuegos del mismo nombre publicada por Sega.  La cinta está dirigida por Jeff Fowler (en su debut como director) con un guion de Pat Casey y Josh Miller, y está protagonizada por Ben Schwartz como la voz de Sonic the Hedgehog y Jim Carrey como el Doctor Robotnik, acompañados por James Marsden, Tika Sumpter, Natasha Rothwell, Adam Pally y Neal McDonough. En esta película, Sonic se une al alguacil local de un pueblo, Tom Wachowski, para escapar de fuerzas gubernamentales secretas y derrotar a Robotnik, quien quiere robar los poderes de Sonic usando sus armas robot sumamente avanzadas para capturarlo."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
+

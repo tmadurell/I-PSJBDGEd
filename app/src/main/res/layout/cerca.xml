@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8A8A8"
+    tools:context=".Cerca">
+
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="OK"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/detective"
+        android:layout_width="88dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="248dp"
+        android:src="@drawable/detective"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="148dp"
+        android:background="#48A4B0"
+        android:hint="    Escribe aquí"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infocerca"
+        android:layout_width="282dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="65dp"
+        android:text="Si quieres ir mas rapido puedes buscarlo directamente por ti mismo....."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detective" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

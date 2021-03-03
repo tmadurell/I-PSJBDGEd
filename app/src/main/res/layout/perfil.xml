@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B8AB0"
+    tools:context=".Perfil">
+
+    <ImageView
+        android:id="@+id/enrere"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/enrere"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/barritas"
+        android:layout_width="467dp"
+        android:layout_height="552dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/perfil"
+        app:layout_constraintBottom_toTopOf="@+id/desa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/desa"
+
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="117dp"
+
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/vlineas"
+        android:text="Guardar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

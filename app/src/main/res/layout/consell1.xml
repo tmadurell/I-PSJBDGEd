@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/b"
+tools:context=".Consell1">
+
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="241dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="648dp"
+        android:background="@drawable/rodo"
+        android:backgroundTint="#FC9700"
+        android:text="Adelante"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gris10"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="212dp"
+        android:src="@drawable/gris"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gris11"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="176dp"
+        android:src="@drawable/gris"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gris12"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="248dp"
+        android:src="@drawable/naranja"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/naranja4"
+        android:layout_width="22dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginRight="136dp"
+        android:src="@drawable/gris"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="267dp"
+    android:layout_height="142dp"
+    android:layout_marginTop="92dp"
+    android:layout_marginRight="68dp"
+    android:src="@drawable/logotip"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginRight="76dp"
+        android:src="@drawable/direccion"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+    android:layout_width="255dp"
+    android:layout_height="113dp"
+    android:layout_marginTop="328dp"
+    android:layout_marginRight="76dp"
+    android:src="@drawable/tv"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_marginTop="28dp"
+    android:text="Bienvenid@ a"
+    android:textColor="@color/white"
+    android:textSize="50sp"
+    app:layout_constraintHorizontal_bias="0.375"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:layout_width="339dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="268dp"
+    android:background="#1C286C"
+    android:text="La base de datos de Películas, Series y VideJuegos mas completa en tu dispositivo móvil."
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintHorizontal_bias="0.583"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:layout_width="304dp"
+    android:layout_height="47dp"
+    android:layout_marginTop="452dp"
+    android:background="#1C286C"
+    android:text="Arrastra a la derecha para saber unos consejos rápidos de la app:"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

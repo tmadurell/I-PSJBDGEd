@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#606060"
+tools:context=".Home_Series_Genere">
+
+<ScrollView
+    android:id="@+id/scrollView6"
+    android:layout_width="417dp"
+    android:layout_height="664dp"
+    android:layout_centerHorizontal="true"
+    tools:layout_editor_absoluteX="-5dp"
+    tools:layout_editor_absoluteY="67dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="34dp"
+            android:text="
+
+
+
+
+
+
+
+
+
+
+
+ "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quees"
+            android:layout_width="390dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="34dp"
+            android:text="Lista del contenido en general por géneros:"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/titul"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Animación:"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filaa" />
+
+        <TextView
+            android:id="@+id/titul1"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Videojuegos:"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filav" />
+
+        <TextView
+            android:id="@+id/titulm"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Marvel:"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/filam" />
+
+        <TextView
+            android:id="@+id/tituldc"
+            android:layout_width="390dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="34dp"
+            android:text="DC Comics:"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:src="@drawable/filadc" />
+
+    </LinearLayout>
+</ScrollView>
+
+<Button
+    android:id="@+id/top"
+    android:layout_width="203dp"
+    android:layout_height="62dp"
+    android:layout_marginBottom="607dp"
+    android:background="@drawable/lineasaz"
+    android:text="TOP"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/novetats"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/barrasuperior"
+    app:layout_constraintVertical_bias="0.0" />
+
+<Button
+    android:id="@+id/novetats"
+    android:layout_width="211dp"
+    android:layout_height="65dp"
+    android:background="@drawable/lineasaz"
+    android:text="Novedades"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/top"
+    app:layout_constraintTop_toBottomOf="@+id/barrasuperior" />
+
+<Button
+    android:id="@+id/genero"
+    android:layout_width="419dp"
+    android:layout_height="57dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginBottom="550dp"
+    android:background="@drawable/lineasaz"
+    android:text="Por géneros"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/top" />
+
+<TextView
+    android:id="@+id/barrasuperior"
+    android:layout_width="423dp"
+    android:layout_height="63dp"
+    android:layout_marginBottom="659dp"
+    android:background="#48A4B0"
+    android:text=""
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.333" />
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="159dp"
+    android:layout_height="47dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="112dp"
+    android:src="@drawable/logotip"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+    android:id="@+id/llupa"
+    android:layout_width="48dp"
+    android:layout_height="49dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="16dp"
+    android:src="@drawable/llupa"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+    android:id="@+id/barritas"
+    android:layout_width="53dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="340dp"
+    android:src="@drawable/barritas"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:text="                                                                                                                             "
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="73dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
